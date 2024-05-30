@@ -4,6 +4,7 @@ Servicio desplegado en: https://laboratiorio8.onrender.com
 
 ### https://laboratiorio8.onrender.com
 Carga la página principal
+
 ![image](https://github.com/KevColomaDev/Laboratiorio8/assets/146954820/a43dc5e5-0de0-47c6-bbfd-fc0319a65e95)
 
 ### https://laboratiorio8.onrender.com/integrantes
