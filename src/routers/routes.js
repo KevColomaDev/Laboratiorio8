@@ -10,7 +10,7 @@ router.get('/integrantes', (req, res) => {
   res.json([
     {
       nombre: 'Sebastian',
-      apellido: 'Ni idea',
+      apellido: 'Coronado',
       rol: 'Scrum Master'
     },
     {
