@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 router.get('/integrantes', (req, res) => {
   res.json([
     {
-      nombre: 'Sebastían',
+      nombre: 'Sebastian',
       apellido: 'Ni idea',
       rol: 'Scrum Master'
     },
@@ -74,7 +74,7 @@ router.get('/integrantes/:nombre', (req, res) => {
       rol: 'Backend'
     }
   ]
-  const result = integrantes.find(i => i.nombre === nombre)
+  const result = integrantes.find(i => i.nombre.toLocaleLowerCase() === nombre)
   result ? res.json(result) : res.json({ msg: 'No esta en este grupo' })
 })
 
