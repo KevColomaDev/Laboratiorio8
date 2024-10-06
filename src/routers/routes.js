@@ -102,3 +102,7 @@ router.get('/products', (req, res) => {
 router.get('/gitflow', (req, res) => {
   res.send('gitflow')
 })
+
+router.get('/github', (req, res) => {
+  res.send('github')
+})
