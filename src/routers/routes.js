@@ -104,5 +104,5 @@ router.get('/gitflow', (req, res) => {
 })
 
 router.get('/github', (req, res) => {
-  res.send('github')
+  res.send('Aqui realizaria la conexion para que apunte a las bases de datos correctas')
 })
